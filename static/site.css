@@ -1,0 +1,68 @@
+body {
+    background: #E0E0E0;
+    font-family: "Trebuchet MS", "Ubuntu", "Arial", sans;
+}
+
+a {
+    color: #0094FF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #636363;
+    border-bottom: 1px dotted #c1c1c1;
+}
+
+#container {
+    background: #fff;
+    width: 950px;
+    margin: 0 auto;
+    margin-top: -22px;
+    border: 2px solid #c1c1c1;
+}
+
+#header {
+    text-align: center;
+    border-bottom: 2px solid #c1c1c1;
+}
+
+#header h1 a, #header h2 a {
+    text-decoration: none;
+}
+#header h1 a {
+    color: #0094FF;
+}
+#header h2 a {
+    color: #636363;
+}
+
+#sidebar {
+    float: left;
+    width: 18%;
+}
+
+#sidebar p {
+    text-align: right;
+}
+
+#navigation li {
+    list-style: none;
+    text-align: right;
+}
+
+#content {
+    float: right;
+    width: 78%;
+    padding-right: 15px;
+    border-left: 2px solid #c1c1c1;
+    padding-left: 15px;
+}
+
+#content h2 {
+    color: #0094FF;
+    margin-bottom: 0;
+}
+
+#content p {
+    margin-top: 11px;
+}
